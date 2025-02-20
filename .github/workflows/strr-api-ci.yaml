@@ -13,7 +13,7 @@ defaults:
 
 jobs:
   strr-api-ci:
-    uses: bcgov/bcregistry-sre/.github/workflows/backend-ci.yaml@main
+    uses: bcgov/bcregistry-sre/.github/workflows/backend-ci.yaml@ci-posgres-image
     with:
       app_name: "strr-api"
       working_directory: "./strr-api"
